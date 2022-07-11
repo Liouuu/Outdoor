@@ -1,0 +1,75 @@
+body {
+	overflow: auto;
+	margin: 0;
+}
+.app_header {
+	position: relative;
+	width: 100%;
+	height: 55px;
+	background-color:#a6bfac;
+	display: flex;
+}
+.app_body {
+	width: 100%;
+	/*height: calc(100% - 1px);*/
+	background-color:#EEEEEE;
+	overflow:auto;
+	display: flex;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+.content{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-auto-rows: min-content;
+    grid-gap: 12px;
+}
+.wrapper{
+    width: 100%;   /*父層可運用空間 */
+    /*height:  calc(100vh + 48px); */
+	margin: 12px 0;
+    display: flex; 
+}
+.header_content{
+	position:relative;
+	margin:20px;
+	color:white;
+	width:100%;	
+
+}
+.menu1{
+	position:relative;
+	margin:5px;
+	color:white;
+	width:400px;
+}
+#subMenu{
+	background-color: grey;
+	position:absolute;
+	width: 100%;
+}
+.hide{
+
+	display:none;
+}
+.menu2{
+	position:relative;
+	margin:10px 70px;
+	color:white;
+	width:400px;
+}
+a { 
+	display:block; 
+	color:white; 
+}
+#subMenu2{
+	background-color: grey;
+	position:absolute;
+	width: 100%;
+	left: 5px;
+
+}

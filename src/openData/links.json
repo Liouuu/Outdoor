@@ -1,0 +1,77 @@
+[
+  {
+    "name": "開休園資訊",
+    "description": "提供本局各育樂場域遊樂區即時開休園資訊。",
+    "url": "https://recreation.forest.gov.tw/mis/api/OpenStatus/RA"
+  },
+  {
+    "name": "國家森林遊樂區基本資料",
+    "description": "提供本局18個遊樂區園區基本資料。",
+    "url": "https://recreation.forest.gov.tw/mis/api/BasicInfo/RA"
+  },
+  {
+    "name": "步道基本資料",
+    "description": "提供本局提供所有步道基本資料。",
+    "url": "https://recreation.forest.gov.tw/mis/api/BasicInfo/Trail"
+  },
+  {
+    "name": "步道路況資訊",
+    "description": "提供目前步道即時路況。(只提供有狀況的步道路況，步道路況為正常則不顯示。)",
+    "url": "https://recreation.forest.gov.tw/mis/api/OpenStatus/Trail"
+  },
+  {
+    "name": "自然教育中心基本資料",
+    "description": "提供本局自然教育中心基本資料。",
+    "url": "https://recreation.forest.gov.tw/mis/api/BasicInfo/NEC"
+  },
+  {
+    "name": "國家森林遊樂區園區票價資訊",
+    "description": "提供18個遊樂區票價資訊。",
+    "url": "https://recreation.forest.gov.tw/mis/api/Admission/RA"
+  },
+  {
+    "name": "自然教育中心課程資訊",
+    "description": "提供8個自然教育中心目前可報名的課程資訊。",
+    "url": "https://recreation.forest.gov.tw/mis/api/courseInfo"
+  },
+  {
+    "name": "平地森林園區資訊",
+    "description": "提供3個平地森林園區資料。",
+    "url": "https://recreation.forest.gov.tw/mis/api/BasicInfo/ForestPark"
+  },
+  {
+    "name": "林業文化園區基本資料",
+    "description": "提供本局4個林業文化園區基本資料。",
+    "url": "https://recreation.forest.gov.tw/mis/api/BasicInfo/Culture"
+  },
+  {
+    "name": "林業鐵路基本資料",
+    "description": "提供本局3個林業鐵路基本資料。",
+    "url": "https://recreation.forest.gov.tw/mis/api/BasicInfo/ForestRailway"
+  },
+  {
+    "name": "生態教育館基本資料",
+    "description": "提供本局9個生態教育館基本資料。",
+    "url": "https://recreation.forest.gov.tw/mis/api/BasicInfo/EEC"
+  },
+  {
+    "name": "林業文化園區票價資訊",
+    "description": "提供本局4個林業文化園區票價資訊。",
+    "url": "https://recreation.forest.gov.tw/mis/api/Admission/Culture"
+  },
+  {
+    "name": "園區活動資訊",
+    "description": "提供本局各項活動資訊",
+    "url": "https://recreation.forest.gov.tw/mis/api/eventInfo"
+  },
+  {
+    "name": "園區訊息公告",
+    "description": "提供相關新聞公告",
+    "url": "https://recreation.forest.gov.tw/mis/api/news"
+  },
+  {
+    "name": "林務局山區手機可通訊點標示",
+    "description": "資料為標示林務局山區手機可通訊參考點，通訊易受山區地形、氣候、電力供應等因素影響品質，請參考使用。",
+    "url": "https://recreation.forest.gov.tw/OpenData/MobileMountainCoverage/林務局山區手機可通訊點標示.json"
+  }
+]

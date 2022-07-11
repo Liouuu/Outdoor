@@ -1,0 +1,48 @@
+.badge_search_wrapper img {
+    width: 50px;
+    height: 50px; 
+    display: flex;
+}
+
+.controls_right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    padding: 0 8px;
+}
+.search_icon {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: auto;
+}
+.search_icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.search_icon:active {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.search_icon img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

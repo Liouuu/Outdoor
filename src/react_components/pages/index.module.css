@@ -1,0 +1,20 @@
+:local(.wrapper) {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+}
+:local(.content) {
+    margin: auto;
+}
+:local(.h5) {
+    font-size: 2rem;
+}
+:local(.body1) {
+    font-size: 1.25rem;
+}
+:local(.outlined) {
+    font-size: 1rem;
+}

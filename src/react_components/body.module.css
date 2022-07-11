@@ -1,0 +1,42 @@
+.wrapper {
+    width: 100%;   /*父層可運用空間 */
+    height:  calc(100vh + 48px); 
+	margin: 12px 0;
+    display: flex; 
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+.content {
+    margin: 0 auto;
+    display: grid; /* 和flex一樣 都要先定義容器的顯示模樣 */
+    grid-template-columns: repeat(3, 1fr); /*定義會使用到的row colume範圍 */
+    grid-auto-rows: max-content;  /*定義會使用到的row culome範圍 */
+    grid-gap: 20px;
+}
+
+.item_wrapper img {     /* 底下的img所有  */
+    object-fit: cover;
+    width: 100%;
+}
+.item_name {
+    display: block;
+    text-align: center;
+}
+.item_introduce {    
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.item_address {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.badge_search_wrapper {
+    width: 100px;
+    height:  100%; 
+    display: flex;
+}
